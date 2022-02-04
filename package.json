@@ -1,0 +1,19 @@
+{
+  "name": "covid",
+  "version": "1.0.0",
+  "description": "covid tracker app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "covid",
+    "ctracker",
+    "19"
+  ],
+  "author": "Elvira Firmansyah",
+  "license": "ISC",
+  "dependencies": {
+    "start": "^5.1.0"
+  }
+}
