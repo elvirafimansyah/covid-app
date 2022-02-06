@@ -4,7 +4,7 @@
 <div align="center">
   
 
-  <h2 align="center">Covid19 Tracker App</h2>
+  <h2 align="center">📈 Covid19 Tracker App</h2>
 
   <p align="center">
     An Awesome Covid Tracker 
