@@ -2,7 +2,7 @@ const searchInput = document.getElementById('search_box');
 const main_case = document.querySelector('.allCase_data');
 const main_country = document.querySelector('.data_search')
 
-
+// Refresh button 
 const refresh_data = document.querySelectorAll('.refresh');
 for (let i = 0; i < refresh_data.length; i++) {
   refresh_data[i].addEventListener('click', () => {
@@ -21,6 +21,12 @@ document.body.classList.toggle("light-theme");
     icon.src = "public/img/light.png";
   }
 }
+
+// Delete Value input
+const search_icon = document.querySelector('.search-icon');
+search_icon.addEventListener('click', () => {
+  searchInput.value = "";
+});
 
 
 searchInput.addEventListener('input', async function(e) {
